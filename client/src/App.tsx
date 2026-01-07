@@ -55,7 +55,7 @@ const App = () => {
     const queryID = telegram.initDataUnsave?.query_id;
 
     if (queryID) {
-      fetch("http://localhost:8000/web-data", {
+      fetch("https://telegram-web-bot-moom.onrender.com/web-data", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
