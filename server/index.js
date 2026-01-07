@@ -61,7 +61,7 @@ const bootstrap = () => {
                 {
                   text: "Kurslarni ko'rish",
                   web_app: {
-                    url: "https://telegram-web-bot-lovat-eight.vercel.app/",
+                    url: "http://192.168.1.197:8080/",
                   },
                 },
               ],
